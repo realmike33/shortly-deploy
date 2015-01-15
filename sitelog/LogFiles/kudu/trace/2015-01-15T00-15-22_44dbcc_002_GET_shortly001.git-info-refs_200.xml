@@ -1,0 +1,28 @@
+<step title="Incoming Request" date="2015-01-15T00:15:22.243" instance="44dbcc" url="/shortly001.git/info/refs?service=git-receive-pack" method="GET" type="request" pid="2888,2,6" Connection="Keep-Alive" Pragma="no-cache" Accept="*/*" Accept-Encoding="gzip" Host="shortly001.scm.azurewebsites.net" User-Agent="git/1.9.1" X-SITE-DEPLOYMENT-ID="shortly001" >
+  <step title="InfoRefsService.Execute" date="2015-01-15T00:15:23.761" >
+    <step title="InfoRefsService.SmartInfoRefs" date="2015-01-15T00:15:23.777" >
+      <step title="GitExeServer.Initialize" date="2015-01-15T00:15:23.826" >
+        <step title="GitExeRepository.Initialize" date="2015-01-15T00:15:23.839" >
+          <step title="Executing external process" date="2015-01-15T00:15:23.855" type="process" path="git.exe" arguments="init" />
+          <step title="Executing external process" date="2015-01-15T00:15:25.053" type="process" path="git.exe" arguments="config core.autocrlf true" />
+          <step title="Executing external process" date="2015-01-15T00:15:25.226" type="process" path="git.exe" arguments="config core.preloadindex true" />
+          <step title="Executing external process" date="2015-01-15T00:15:25.341" type="process" path="git.exe" arguments="config user.name &quot;windowsazure&quot;" />
+          <step title="Executing external process" date="2015-01-15T00:15:25.623" type="process" path="git.exe" arguments="config user.email &quot;windowsazure&quot;" />
+          <step title="Configure git server" date="2015-01-15T00:15:25.833" >
+            <step title="Executing external process" date="2015-01-15T00:15:25.864" type="process" path="git.exe" arguments="config receive.denyCurrentBranch ignore" />
+          </step>
+          <step title="Create deny users for .git folder" date="2015-01-15T00:15:26.083" />
+          <step title="Configure git-credential" date="2015-01-15T00:15:26.114" >
+            <step title="Executing external process" date="2015-01-15T00:15:26.130" type="process" path="git.exe" arguments="config credential.helper &quot;!&apos;D:\home\site\repository\.git\hooks\git-credential-invalid.sh&apos;&quot;" />
+          </step>
+          <step title="Setup post receive hook" date="2015-01-15T00:15:26.333" />
+        </step>
+      </step>
+      <step title="GitExeServer.AdvertiseReceivePack" date="2015-01-15T00:15:26.430" >
+        <step title="Executing external process" date="2015-01-15T00:15:26.430" type="process" path="git.exe" arguments="receive-pack --stateless-rpc --advertise-refs &quot;D:\home\site\repository&quot;" />
+      </step>
+      <step title="Writing 183 bytes" date="2015-01-15T00:15:26.582" />
+    </step>
+  </step>
+  <step title="Outgoing response" date="2015-01-15T00:15:26.718" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" Pragma="no-cache" Cache-Control="must-revalidate, no-cache, max-age=0" Expires="Tue, 01 Jan 1980 00:00:00 GMT" Content-Length="183" X-AspNet-Version="4.0.30319" Content-Type="application/x-git-receive-pack-advertisement" />
+</step>

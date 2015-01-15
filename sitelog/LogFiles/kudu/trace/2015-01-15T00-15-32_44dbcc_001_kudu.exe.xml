@@ -1,0 +1,22 @@
+<step title="Executing external process" date="2015-01-15T00:15:32.234" instance="44dbcc" type="process" path="kudu.exe" arguments="D:\home\site D:\Program Files (x86)\SiteExtensions\Kudu\42.31229.1323\msbuild" >
+  <step title="Executing external process" date="2015-01-15T00:15:32.266" type="process" path="git.exe" arguments="log -n 1 master --" />
+  <step title="DeploymentManager.Deploy(id)" date="2015-01-15T00:15:32.421" >
+    <step title="Collecting changeset information" date="2015-01-15T00:15:32.453" />
+    <step title="Updating to specific changeset" date="2015-01-15T00:15:32.578" >
+      <step title="Executing external process" date="2015-01-15T00:15:32.703" type="process" path="git.exe" arguments="checkout master --force" />
+    </step>
+    <step title="Updating submodules" date="2015-01-15T00:15:33.788" />
+    <step title="Determining deployment builder" date="2015-01-15T00:15:34.072" >
+      <step title="Builder is CustomBuilder" date="2015-01-15T00:15:34.089" />
+    </step>
+    <step title="Copying SSH keys" date="2015-01-15T00:15:34.135" />
+    <step title="Building" date="2015-01-15T00:15:34.166" >
+      <step title="Executing external process" date="2015-01-15T00:15:34.432" type="process" path="starter.cmd" arguments="bash deploy.sh" >
+        <step title="Cpu: node(4352,46.469s)+bash(5092,0.031s)+bash(4556,0.125s)+cmd(3840,0.094s)=total(46.719s)" date="2015-01-15T00:16:53.819" />
+        <step title="starter.cmd: no io activity for 60s, prev-cpu=-1.000s, current-cpu=46.719s" date="2015-01-15T00:16:53.881" />
+      </step>
+    </step>
+  </step>
+  <step title="Cleaning up temp files" date="2015-01-15T00:19:08.271" />
+  <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2015-01-15T00:19:08.302" />
+</step>

@@ -12,6 +12,7 @@ Shortly.createLinkView = Backbone.View.extend({
     return this;
   },
 
+
   shortenUrl: function(e) {
     e.preventDefault();
     var $form = this.$el.find('form .text');

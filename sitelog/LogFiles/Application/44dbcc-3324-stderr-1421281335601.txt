@@ -1,0 +1,6 @@
+connect.multipart() will be removed in connect 3.0
+visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+connect.limit() will be removed in connect 3.0
+Warning: connection.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.

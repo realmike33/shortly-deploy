@@ -3,6 +3,10 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     concat: {
+      dist:{
+        src : ['public/client/*.js'],
+        dest: 'public/dist/app.js'
+      }
     },
 
     mochaTest: {
@@ -21,11 +25,15 @@ module.exports = function(grunt) {
     },
 
     uglify: {
+      dist:{
+        src: 'public/dist/app.js',
+        dest: 'public/dist/app.min.js'
+      }
     },
 
     jshint: {
       files: [
-        // Add filespec list here
+        'public/client/*.js'
       ],
       options: {
         force: 'true',
@@ -38,6 +46,10 @@ module.exports = function(grunt) {
     },
 
     cssmin: {
+      dist: {
+        src : 'public/*.css' ,
+        dest: 'public/dist/style.min.css'
+      }
     },
 
     watch: {
@@ -94,6 +106,11 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('build', [
+    'jshint',
+    'concat',
+    'uglify',
+    'cssmin',
+    'mochaTest'
   ]);
 
   grunt.registerTask('upload', function(n) {
@@ -105,7 +122,8 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('deploy', [
-    // add your deploy tasks here
+    'build',
+    'pushToAzure'
   ]);
 
 

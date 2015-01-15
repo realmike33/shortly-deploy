@@ -1,0 +1,5 @@
+<step title="Incoming Request" date="2015-01-15T00:20:14.802" instance="44dbcc" url="/logstream" method="GET" type="request" pid="2888,2,6" Connection="Keep-Alive" Content-Length="0" Accept-Charset="UTF-8" Host="shortly001.scm.azurewebsites.net" User-Agent="WindowsAzureXplatCLI/0.8.13" X-SITE-DEPLOYMENT-ID="shortly001" >
+  <step title="LogStreamHandler.BeginProcessRequest" date="2015-01-15T00:20:14.832" />
+  <step title="LogStreamHandler.EndProcessRequest" date="2015-01-15T00:22:15.633" />
+  <step title="Outgoing response" date="2015-01-15T00:22:15.648" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="text/plain; charset=utf-8" />
+</step>

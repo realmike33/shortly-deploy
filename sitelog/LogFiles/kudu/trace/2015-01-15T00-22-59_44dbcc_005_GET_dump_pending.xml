@@ -1,0 +1,2 @@
+<step title="Incoming Request" date="2015-01-15T00:22:59.885" instance="44dbcc" url="/dump" method="GET" type="request" pid="2888,2,9" Connection="Keep-Alive" Content-Length="0" Accept-Charset="UTF-8" Host="shortly001.scm.azurewebsites.net" User-Agent="WindowsAzureXplatCLI/0.8.13" X-SITE-DEPLOYMENT-ID="shortly001" >
+  <step title="ZipStreamContent.OnZip" date="2015-01-15T00:23:00.135" 

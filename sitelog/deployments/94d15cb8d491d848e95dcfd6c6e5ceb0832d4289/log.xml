@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entries>
+  <entry time="2015-01-15T00:15:32.6875198Z" id="9d753cb5-f6a1-49ca-94b5-8da654ce3fa4" type="0">
+    <message>Updating branch 'master'.</message>
+  </entry>
+  <entry time="2015-01-15T00:15:33.8696507Z" id="cd23b701-6d58-495b-beab-be7fb7c8e63d" type="0">
+    <message>Updating submodules.</message>
+  </entry>
+  <entry time="2015-01-15T00:15:33.9477926Z" id="2de1afab-9b15-4fca-b935-ab065a8a703b" type="0">
+    <message>Preparing deployment for commit id '94d15cb8d4'.</message>
+  </entry>
+  <entry time="2015-01-15T00:15:34.2604274Z" id="1e9cbd52-0ab5-405f-9f81-cb601242c2c5" type="0">
+    <message>Running custom deployment command...</message>
+  </entry>
+  <entry time="2015-01-15T00:15:34.3385289Z" id="832d26e4-d832-48d9-8bb8-6d6609c56dda" type="1">
+    <message>Running deployment command...</message>
+    <entry time="2015-01-15T00:15:34.3697944Z" id="9ab7083d-593c-49e1-bcd7-5ff9f7b4920b" type="0">
+      <message>Command: bash deploy.sh</message>
+    </entry>
+    <entry time="2015-01-15T00:15:46.7150261Z" id="c4b8f559-0b30-4fa5-9fea-a04f58757455" type="0">
+      <message>Handling node.js deployment.</message>
+    </entry>
+    <entry time="2015-01-15T00:15:47.8152963Z" id="00d752ce-8a74-49f3-b061-c4e00fbe8854" type="0">
+      <message>KuduSync.NET from: 'D:\home\site\repository' to: 'D:\home\site\wwwroot'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:47.8309594Z" id="46bfb6a3-1c53-4e8c-b974-860e77835857" type="0">
+      <message>Deleting file: 'hostingstart.html'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:47.8465566Z" id="512b66d7-f405-4d74-a00e-cf115e122e20" type="0">
+      <message>Copying file: '.gitignore'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:47.8621722Z" id="71bc8238-8a8e-4dcd-bde5-927b2ee4eb8a" type="0">
+      <message>Copying file: '.jshintrc'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:47.8934243Z" id="3bbda53c-b465-4f08-a5de-15fdde903bc0" type="0">
+      <message>Copying file: 'Gruntfile.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:47.9246755Z" id="b7e978bb-2216-4615-af92-5f01a72f7a0b" type="0">
+      <message>Copying file: 'package.json'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:47.9559584Z" id="794eb315-fd63-40ec-9108-e2292e0a2ef4" type="0">
+      <message>Copying file: 'README.md'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:48.0028074Z" id="4e0b8770-0af2-495b-bc3c-dfe0caaa1c0f" type="0">
+      <message>Copying file: 'server-config.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:48.9090644Z" id="d4105061-aa1d-4dad-b1d7-d84d8f552556" type="0">
+      <message>Copying file: 'server.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:49.0653162Z" id="73a4b4d1-7795-432b-8c70-8d1a978f87df" type="0">
+      <message>Copying file: 'app\config.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:49.2528175Z" id="89739142-856b-456c-817d-044de216d8ad" type="0">
+      <message>Copying file: 'app\collections\links.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:49.3621948Z" id="d191f8e0-abfc-4ada-928d-929385431eea" type="0">
+      <message>Copying file: 'app\collections\users.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:49.7840754Z" id="963124fb-47be-4dad-b3e9-78a2191d7e83" type="0">
+      <message>Copying file: 'app\models\link.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:50.0664658Z" id="03dfa1b3-d34e-4e1b-8e7a-14a7ce5bf0b8" type="0">
+      <message>Copying file: 'app\models\user.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:50.3028715Z" id="b2cffec6-f1c5-4b99-86a7-f17514c44c97" type="0">
+      <message>Copying file: 'db\.gitkeep'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:50.4715842Z" id="8bcc9af9-345b-4774-ac60-637272b418db" type="0">
+      <message>Copying file: 'db\shortly.sqlite'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:50.8309638Z" id="18f3f158-f24b-44bf-8967-820977d19739" type="0">
+      <message>Copying file: 'lib\request-handler.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:51.0497159Z" id="6f7de99b-e78e-4803-b283-aa426145a0de" type="0">
+      <message>Copying file: 'lib\utility.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:51.205969Z" id="03a5e65b-d3cb-4ecf-8f3f-c23268052e56" type="0">
+      <message>Copying file: 'public\redirect_icon.png'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:51.2840944Z" id="6c313d4b-1f8e-4933-9243-cddc6902b7cf" type="0">
+      <message>Copying file: 'public\spiffygif_46x46.gif'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:51.424722Z" id="444f0a85-3083-48f1-91ec-59f3a59906ee" type="0">
+      <message>Copying file: 'public\style.css'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:51.4872224Z" id="b809237b-414c-4cf4-b59a-396db925749f" type="0">
+      <message>Copying file: 'public\client\app.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:51.5534451Z" id="0800a194-af6a-4dae-ba4e-281a56e8bd7e" type="0">
+      <message>Copying file: 'public\client\createLinkView.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:51.674725Z" id="243223b7-47a4-4077-b2c9-42ae16fe849b" type="0">
+      <message>Copying file: 'public\client\link.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:51.955997Z" id="c620bc5e-1298-4ce9-b9a9-eb8f01108495" type="0">
+      <message>Copying file: 'public\client\links.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.0653542Z" id="355fa82a-27f5-46d1-9700-cec47aa52066" type="0">
+      <message>Copying file: 'public\client\linksView.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.2216076Z" id="b0b7f6e4-2c80-402c-8236-945487bfa0f9" type="0">
+      <message>Copying file: 'public\client\linkView.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.3153584Z" id="9b81b000-f0c5-439d-abd6-edfa653a7df4" type="0">
+      <message>Copying file: 'public\client\router.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.3622346Z" id="59eba4eb-2d32-4ea0-9811-a9bd79ad6e0d" type="0">
+      <message>Copying file: 'public\dist\.gitkeep'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.4716105Z" id="ea3d43fa-849c-4f4d-b24d-18c423dce093" type="0">
+      <message>Copying file: 'public\lib\backbone.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.5028606Z" id="90a04abf-d9b8-4170-b228-140489d1f87b" type="0">
+      <message>Copying file: 'public\lib\handlebars.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.5341486Z" id="7f1b93de-ba5b-48ce-9220-da974959cbce" type="0">
+      <message>Copying file: 'public\lib\jquery.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.5810275Z" id="d45dcbf8-3498-4915-b241-9e86feece62b" type="0">
+      <message>Copying file: 'public\lib\underscore.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.6122718Z" id="f0be09cd-ab8b-45e3-ba8d-82efa555172c" type="0">
+      <message>Copying file: 'test\ServerSpec.js'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.6591172Z" id="067dcc3d-a7ed-45f8-9c2c-4eab1908d5cc" type="0">
+      <message>Copying file: 'views\index.ejs'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.7216238Z" id="c7f92f89-6a2d-42b2-9201-4a5040516fb7" type="0">
+      <message>Copying file: 'views\layout.ejs'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.7997522Z" id="938c0236-9e1b-4c78-a573-73dde7ee4f9d" type="0">
+      <message>Copying file: 'views\login.ejs'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.9091156Z" id="5d642e53-543e-40cc-b408-93d4a28517c1" type="0">
+      <message>Copying file: 'views\signup.ejs'</message>
+    </entry>
+    <entry time="2015-01-15T00:15:52.9716163Z" id="47271e04-1dc1-4bd9-b6ac-4bfcb079403a" type="0">
+      <message>Looking for app.js/server.js under site root.</message>
+    </entry>
+    <entry time="2015-01-15T00:15:53.0341172Z" id="59fc70d9-ab22-465f-a448-e5fe34a1e082" type="0">
+      <message>Using start-up script server.js</message>
+    </entry>
+    <entry time="2015-01-15T00:15:53.1278692Z" id="6960472b-a9bb-4b7e-a243-7a68dc0e0557" type="0">
+      <message>Generated web.config.</message>
+    </entry>
+    <entry time="2015-01-15T00:15:53.174744Z" id="906d6518-d8e1-40c3-ac34-bec5a33b4ac8" type="0">
+      <message>The package.json file does not specify node.js engine version constraints.</message>
+    </entry>
+    <entry time="2015-01-15T00:15:53.2059942Z" id="894e3d5a-7244-44a8-9f73-f83731ffbc13" type="0">
+      <message>The node.js application will run with the default node.js version 0.10.32.</message>
+    </entry>
+    <entry time="2015-01-15T00:17:19.7340108Z" id="7d456f33-1fe4-4f4c-9eec-096a1957e31c" type="1">
+      <message>npm WARN engine hawk@0.10.2: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:29.7343818Z" id="103ad63b-29ca-453f-b1db-057e9362d6e6" type="1">
+      <message>npm WARN engine cryptiles@0.1.3: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:30.0524509Z" id="f9a8b095-c3e4-4c8e-a563-5a2fe268eaa6" type="1">
+      <message>npm WARN engine sntp@0.1.4: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:30.1149539Z" id="ff99c9c0-e9be-4ddf-9e32-fabb987c90bd" type="1">
+      <message>npm WARN engine boom@0.3.8: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:30.1774561Z" id="d792f836-f8cd-476c-8120-855e4164d5af" type="1">
+      <message>npm WARN engine hoek@0.7.6: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:33.3025759Z" id="c9f0a8f7-71a6-472a-9b3c-4f7c3192a032" type="1">
+      <message>npm WARN engine hawk@0.10.2: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:38.1621374Z" id="19fa356d-bc90-4b30-94a4-beb068ec2221" type="1">
+      <message>npm WARN engine boom@0.3.8: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:38.2246395Z" id="4b66ebdb-67e6-43ba-a3dc-b88bc3ff3899" type="1">
+      <message>npm WARN engine hoek@0.7.6: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:38.2715166Z" id="a8e1e0bf-143d-4d88-8d92-5441a93ee57b" type="1">
+      <message>npm WARN engine cryptiles@0.1.3: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:38.3340188Z" id="b57b762a-7798-49c8-b4ef-1c7cbd1291cf" type="1">
+      <message>npm WARN engine sntp@0.1.4: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:40.0215838Z" id="909ee5e3-b531-41d8-8a9d-f0f759475583" type="1">
+      <message>npm WARN engine hawk@0.10.2: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:17:43.303454Z" id="eb93c77b-8094-45dc-9588-2aae101fc813" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:17:43.366571Z" id="a577efbe-cfe7-4189-993b-6607e457f37e" type="0">
+      <message>&gt; kerberos@0.0.4 install d:\home\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos</message>
+    </entry>
+    <entry time="2015-01-15T00:17:43.3998305Z" id="0eb78eff-344c-4b59-a412-f88f2935d422" type="0">
+      <message>&gt; (node-gyp rebuild 2&gt; builderror.log) || (exit 0)</message>
+    </entry>
+    <entry time="2015-01-15T00:17:43.4435898Z" id="5cb93037-b4ea-47aa-a7f4-bdbfdbc7c0ae" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:17:43.5068098Z" id="89252c24-e253-4f24-879e-88b01f9f557d" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:17:43.9123577Z" id="5748dadd-3ed1-4cc9-83db-40e9a0b991c3" type="0">
+      <message>d:\home\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos&gt;node "D:\Program Files (x86)\npm\1.4.28\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild </message>
+    </entry>
+    <entry time="2015-01-15T00:18:08.7345527Z" id="de42f091-5b86-4532-bcc7-82ac23f37652" type="0">
+      <message>Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.</message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.1095612Z" id="3a289c35-5372-4f5d-a893-d3cc43a4feb6" type="0">
+      <message>MSBUILD : error MSB3428: Could not load the Visual C++ component "VCBuild.exe". To fix this, 1) install the .NET Framework 2.0 SDK, 2) install Microsoft Visual Studio 2005 or 3) add the location of the component to the system path if it is installed elsewhere.  [d:\home\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\binding.sln]</message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.2360765Z" id="2f53635b-2ed5-40f2-b6bf-c86273ca8d42" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.2658166Z" id="e99135bc-934d-41db-9cda-69e375abe99f" type="1">
+      <message>npm WARN engine sntp@0.1.4: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.316343Z" id="efd0b63e-2903-4b41-b2e8-221e1116bc02" type="0">
+      <message>&gt; bson@0.2.17 install d:\home\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\bson</message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.32832Z" id="d4933171-84d3-4fd9-bd4d-63dc87fa011c" type="1">
+      <message>npm WARN engine hoek@0.7.6: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.3609489Z" id="477566c1-e05b-4635-9352-857ee1a9dd28" type="0">
+      <message>&gt; (node-gyp rebuild 2&gt; builderror.log) || (exit 0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.3910027Z" id="90dbd29f-b363-4b62-8b1c-0ec642003133" type="1">
+      <message>npm WARN engine boom@0.3.8: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.6898628Z" id="8633d744-c45b-44ac-9f24-c8f89b837d44" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.7189707Z" id="0a93b13f-b5d0-431e-ae53-97dd8df59c5c" type="1">
+      <message>npm WARN engine cryptiles@0.1.3: wanted: {"node":"0.8.x"} (current: {"node":"0.10.32","npm":"1.4.28"})</message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.781462Z" id="a2b28246-f04b-4670-9b73-d10d08689226" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:09.8132086Z" id="e18858bd-ef03-4492-ac76-3766f6c79b8a" type="0">
+      <message>d:\home\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\bson&gt;node "D:\Program Files (x86)\npm\1.4.28\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild </message>
+    </entry>
+    <entry time="2015-01-15T00:18:13.7978782Z" id="32a341d6-3203-4a62-94e5-f51292b82bfa" type="0">
+      <message>Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.</message>
+    </entry>
+    <entry time="2015-01-15T00:18:14.2856562Z" id="1a5b8e4a-100a-4871-b26d-c568452ec04a" type="0">
+      <message>MSBUILD : error MSB3428: Could not load the Visual C++ component "VCBuild.exe". To fix this, 1) install the .NET Framework 2.0 SDK, 2) install Microsoft Visual Studio 2005 or 3) add the location of the component to the system path if it is installed elsewhere.  [d:\home\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\binding.sln]</message>
+    </entry>
+    <entry time="2015-01-15T00:18:22.8090599Z" id="45df94d9-3b2b-475c-a504-5cbcdb3d1737" type="1">
+      <message>npm WARN deprecated set-immediate@0.1.1: Use `setimmediate` instead</message>
+    </entry>
+    <entry time="2015-01-15T00:18:24.1338211Z" id="96d8eded-01c0-4fa3-b62b-973864e2e532" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:24.1966017Z" id="bdd369db-1f5f-42ea-a5b4-461e05cfef94" type="0">
+      <message>&gt; sqlite3@2.2.7 install d:\home\site\wwwroot\node_modules\sqlite3</message>
+    </entry>
+    <entry time="2015-01-15T00:18:24.2119579Z" id="23e3c480-a070-48b7-ae77-908dc8cd271c" type="0">
+      <message>&gt; node-pre-gyp install --fallback-to-build</message>
+    </entry>
+    <entry time="2015-01-15T00:18:24.2446415Z" id="b84a4e02-0a70-432b-ab83-3f2c25b4a968" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:30.5567346Z" id="20eae194-1df6-47c2-8248-fe71665f9de5" type="0">
+      <message>[sqlite3] Success: "d:\home\site\wwwroot\node_modules\sqlite3\lib\binding\node-v11-win32-ia32\node_sqlite3.node" is installed via remote</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.039851Z" id="332e66f5-bb07-4da6-bed9-71423dd8619a" type="0">
+      <message>bcrypt-nodejs@0.0.3 node_modules\bcrypt-nodejs</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.0867266Z" id="e6b2c19f-7491-49e1-95a4-172f95e53713" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.1023538Z" id="a8e5d981-117a-4956-bd32-ad2d5eccaa11" type="0">
+      <message>grunt-contrib-concat@0.3.0 node_modules\grunt-contrib-concat</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.1179786Z" id="1f72ae75-3f0d-447a-9924-1da01290a0a3" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.1375972Z" id="3c1a92da-0652-4ab3-8026-6076341a515b" type="0">
+      <message>grunt-shell@0.6.4 node_modules\grunt-shell</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.1532399Z" id="05b8798c-aad6-4462-8ed2-88f1085f53e1" type="0">
+      <message>└── chalk@0.3.0 (has-color@0.1.7, ansi-styles@0.2.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.1688625Z" id="375e6044-acfa-448a-899c-442d0edcf33e" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.1881447Z" id="d896ba68-6131-46fc-b3d3-f33876f84965" type="0">
+      <message>express-partials@0.2.0 node_modules\express-partials</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.2050156Z" id="483316e4-92db-47fc-8d36-0a8f51730224" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.2217144Z" id="908a8836-770a-4cdc-be42-11aa7326f9b7" type="0">
+      <message>ejs@0.8.8 node_modules\ejs</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.2388897Z" id="fe7087f8-daf6-42e3-96b1-344a79cc55a0" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.256998Z" id="e297a61e-8fbb-43dc-80e2-e973be8b2c9f" type="0">
+      <message>grunt-contrib-cssmin@0.9.0 node_modules\grunt-contrib-cssmin</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.2726413Z" id="f9900acf-3dff-4709-b92c-9381f64c5644" type="0">
+      <message>├── chalk@0.4.0 (ansi-styles@1.0.0, strip-ansi@0.1.1, has-color@0.1.7)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.3073091Z" id="2acdf315-0550-4031-b068-455db8568c02" type="0">
+      <message>├── clean-css@2.1.8 (commander@2.1.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.3386294Z" id="f8d8d10d-6c65-4261-a49c-8e2da0dcb376" type="0">
+      <message>└── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.3774219Z" id="352b20e1-06d1-4f4a-99e4-1c2bd442fe0b" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.3930561Z" id="eb1e3cdc-d92a-4fd0-8193-2db704ab583b" type="0">
+      <message>chai@1.10.0 node_modules\chai</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.4243084Z" id="b640de0b-be1f-4bb6-89f3-17697f5cd560" type="0">
+      <message>├── assertion-error@1.0.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.4399328Z" id="5e6af6f0-5d20-441a-8649-dc5e6c6b1b5f" type="0">
+      <message>└── deep-eql@0.1.3 (type-detect@0.1.1)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.4574306Z" id="50cf4125-9489-4595-8684-56b73e7184ea" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.4730762Z" id="ba14f636-5195-41f9-9842-893e6da1cfad" type="0">
+      <message>bluebird@1.0.8 node_modules\bluebird</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.4886892Z" id="8198f158-8d69-40d5-8c2c-aed4275458dd" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.5043152Z" id="7b5fc0f7-3026-4d77-878a-c7a54f684cf6" type="0">
+      <message>request@2.51.0 node_modules\request</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.5357675Z" id="215eb574-98ee-4caa-972f-78bff0a78a9c" type="0">
+      <message>├── caseless@0.8.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.5670667Z" id="922c3144-245f-48b2-9609-d457659e0fb7" type="0">
+      <message>├── json-stringify-safe@5.0.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.5845303Z" id="978ed0c0-08f7-47fe-99d6-75d80199c7f5" type="0">
+      <message>├── aws-sign2@0.5.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.6314461Z" id="7da618e9-5097-43f5-b6de-7687b563ec93" type="0">
+      <message>├── forever-agent@0.5.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.6470591Z" id="93ebeeb0-7c77-4c60-b719-e8c952eb2cb2" type="0">
+      <message>├── stringstream@0.0.4</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.6626658Z" id="4786c839-7ea2-450e-b67e-08922ecb75fd" type="0">
+      <message>├── oauth-sign@0.5.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.6939243Z" id="c043ca3a-bc85-4347-b832-4979c3cb0016" type="0">
+      <message>├── tunnel-agent@0.4.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.7095412Z" id="6e12e37c-4fa5-44fe-a693-c98c7706f921" type="0">
+      <message>├── node-uuid@1.4.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.7564499Z" id="430c8a5f-0b89-4a2a-bd2e-bbd41c2bb278" type="0">
+      <message>├── qs@2.3.3</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.7720585Z" id="ab6fa750-ad50-4334-9c07-4aaaa9189afe" type="0">
+      <message>├── mime-types@1.0.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.7876834Z" id="817fa61b-7700-4bd5-9ef6-fd245ceecf73" type="0">
+      <message>├── combined-stream@0.0.7 (delayed-stream@0.0.5)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.8657983Z" id="f770304f-c42b-4d93-b07f-47ff58c1e533" type="0">
+      <message>├── http-signature@0.10.1 (assert-plus@0.1.5, asn1@0.1.11, ctype@0.5.3)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:36.928301Z" id="697d9f2a-a802-48b9-a814-700af65732de" type="0">
+      <message>├── form-data@0.2.0 (async@0.9.0, mime-types@2.0.7)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:37.9908415Z" id="b08b09ae-504e-42dd-b7b5-65df7a56e125" type="0">
+      <message>├── bl@0.9.3 (readable-stream@1.0.33)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:38.5535832Z" id="fada9077-fa0d-4188-9216-682d51adc7f3" type="0">
+      <message>├── tough-cookie@0.12.1 (punycode@1.3.2)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:38.6002397Z" id="0cf6079e-a568-4d89-98c9-2018300403cb" type="0">
+      <message>└── hawk@1.1.1 (cryptiles@0.2.2, sntp@0.2.4, boom@0.4.2, hoek@0.9.1)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:38.6812897Z" id="e62747a3-8bc2-4f70-b014-fb3f49eef255" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:38.7721215Z" id="2bec352f-e1f4-43c3-8a77-f4b23cb9229d" type="0">
+      <message>mocha@1.21.5 node_modules\mocha</message>
+    </entry>
+    <entry time="2015-01-15T00:18:38.8382365Z" id="4422b96d-b1ab-41c5-b197-82d1f5f4e83a" type="0">
+      <message>├── escape-string-regexp@1.0.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:38.9288452Z" id="17404d10-1b6e-449d-9075-08956075bd0b" type="0">
+      <message>├── growl@1.8.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.1002598Z" id="bb0b09a0-3fb4-44ab-90e5-2d1e0fa4b4ca" type="0">
+      <message>├── diff@1.0.8</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.1783911Z" id="624d6669-8d41-4c98-98cb-db8876fb0997" type="0">
+      <message>├── commander@2.3.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.1969709Z" id="25eb9c5a-9222-4006-9782-fc1e9a76edce" type="0">
+      <message>├── debug@2.0.0 (ms@0.6.2)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.2096387Z" id="524b9f4f-c1ba-4178-a7d8-fea3e914e3cc" type="0">
+      <message>├── mkdirp@0.5.0 (minimist@0.0.8)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.272918Z" id="85b72230-ce37-4ddb-9968-70e9e3982342" type="0">
+      <message>├── glob@3.2.3 (inherits@2.0.1, graceful-fs@2.0.3, minimatch@0.2.14)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.3190282Z" id="c2c57716-3bfd-4ef7-9a45-f6706a0dad55" type="0">
+      <message>└── jade@0.26.3 (commander@0.6.1, mkdirp@0.3.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.41467Z" id="ed813609-a834-4f92-9a13-fc1d1ea92f8d" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.5221717Z" id="24e7cba0-f7ef-4c43-b9c7-b1fadcaec6f8" type="0">
+      <message>grunt-contrib-uglify@0.4.1 node_modules\grunt-contrib-uglify</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.5534068Z" id="7f614499-249d-4116-939a-adf5fc55a574" type="0">
+      <message>├── chalk@0.4.0 (has-color@0.1.7, ansi-styles@1.0.0, strip-ansi@0.1.1)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.5846541Z" id="d15239aa-95e0-4b42-99cc-0ed1213066bc" type="0">
+      <message>├── maxmin@0.1.0 (pretty-bytes@0.1.2, gzip-size@0.1.1)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.6159298Z" id="d4515b40-ccff-4fc7-8a03-5795de49bc46" type="0">
+      <message>└── uglify-js@2.4.16 (uglify-to-browserify@1.0.2, async@0.2.10, optimist@0.3.7, source-map@0.1.34)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.63262Z" id="3273a67c-9582-4c22-9a7b-448f8eea34e9" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.6628158Z" id="e73bfab4-9b3d-48b0-94d6-747ef862c37d" type="0">
+      <message>grunt-contrib-watch@0.6.1 node_modules\grunt-contrib-watch</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.6784112Z" id="31287e70-3ddf-4f8d-a59f-e8667a78fe4b" type="0">
+      <message>├── async@0.2.10</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.7118982Z" id="4d19e194-e937-47ae-a43a-21ef19b74384" type="0">
+      <message>├── tiny-lr-fork@0.0.5 (debug@0.7.4, faye-websocket@0.4.4, noptify@0.0.3, qs@0.5.6)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.7409092Z" id="fe87bd9d-2643-4ba1-bda9-3c4ca863fd67" type="0">
+      <message>├── gaze@0.5.1 (globule@0.1.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.7877853Z" id="a44b5585-026e-4ca3-a632-ce6c5794d927" type="0">
+      <message>└── lodash@2.4.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.8034114Z" id="6dc13fc8-4111-4870-85b7-9c661c7f7e55" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.8346735Z" id="96cd444f-ce02-4dc2-bf8f-472b509aec37" type="0">
+      <message>grunt-mocha-test@0.10.2 node_modules\grunt-mocha-test</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.8659135Z" id="8aee1caf-aa44-4314-9f35-5cd9b4dbbb9e" type="0">
+      <message>├── hooker@0.2.3</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.8971869Z" id="5c0a41b4-6e06-4eac-996a-bb11dc70c479" type="0">
+      <message>├── fs-extra@0.8.1 (jsonfile@1.1.1, rimraf@2.2.8, ncp@0.4.2, mkdirp@0.3.5)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:39.9909183Z" id="09147c75-9127-430a-b1c8-ff5974369de9" type="0">
+      <message>└── mocha@1.18.2 (diff@1.0.7, growl@1.7.0, commander@2.0.0, mkdirp@0.3.5, debug@2.1.1, glob@3.2.3, jade@0.26.3)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.0846749Z" id="1a2ed7ae-b19a-4418-b5d0-931ec53fa86b" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.1471752Z" id="ae37ad2c-5bfd-44a1-97e8-33dd5caa8d79" type="0">
+      <message>grunt-contrib-jshint@0.9.2 node_modules\grunt-contrib-jshint</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.1965977Z" id="371d80e4-6cee-4cf1-87bb-5a3c71eba9fc" type="0">
+      <message>├── hooker@0.2.3</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.2253063Z" id="c9ec810e-7be9-4ecb-b5dc-208df1bff0cb" type="0">
+      <message>└── jshint@2.4.4 (console-browserify@0.1.6, exit@0.1.2, underscore@1.4.4, minimatch@0.4.0, shelljs@0.1.4, cli@0.4.5, htmlparser2@3.3.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.2410891Z" id="33217a68-b579-421d-815b-69b177a55272" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.2573507Z" id="70b3a334-ac63-497b-98c2-e8a7a997d2b2" type="0">
+      <message>bookshelf@0.6.12 node_modules\bookshelf</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.2878361Z" id="11fc52f6-6c29-4f5a-ba45-d400fe95e88d" type="0">
+      <message>├── trigger-then@0.3.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.3034371Z" id="571dea2b-0f4e-4c20-9087-a5791d09322b" type="0">
+      <message>├── inflection@1.2.7</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.3190626Z" id="542b9d86-2c09-46e0-be32-1abcfeff0cd4" type="0">
+      <message>├── backbone@1.1.0 (underscore@1.7.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.3346884Z" id="f6290795-51e4-4f7e-afda-d5c543d9860b" type="0">
+      <message>├── bluebird@1.2.4</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.3659327Z" id="c600f382-9bb9-41fd-9260-f829801ebbf5" type="0">
+      <message>└── lodash@2.4.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.3911249Z" id="25fc97ad-63ca-4e0c-bdf7-4400425ac89c" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.4081477Z" id="5dc035bf-3120-4c7d-9582-eda8689ed1a4" type="0">
+      <message>grunt-nodemon@0.2.1 node_modules\grunt-nodemon</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.4237944Z" id="e97513b6-554e-4c73-8350-edd3fb8870ae" type="0">
+      <message>└── nodemon@1.0.20 (minimatch@0.2.14, ps-tree@0.0.3, update-notifier@0.1.10)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.4399547Z" id="ad937974-3fb7-4993-b12c-3cd761a2d06c" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.473335Z" id="a5ba9d7d-b89e-4a83-8a32-c6110f0f519f" type="0">
+      <message>grunt@0.4.5 node_modules\grunt</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.4937827Z" id="b829c9f2-ecc5-4a60-a25e-a7cdf6579863" type="0">
+      <message>├── dateformat@1.0.2-1.2.3</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.5094192Z" id="76830d9d-1210-4aa8-9027-9c1c59218373" type="0">
+      <message>├── which@1.0.8</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.5406701Z" id="30b8046f-77d8-43d0-a90d-00e5db13e81e" type="0">
+      <message>├── eventemitter2@0.4.14</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.5562965Z" id="ff80c719-a8d7-4ea8-acea-d6bf5fe7d6b9" type="0">
+      <message>├── getobject@0.1.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.57457Z" id="636e609a-8078-492e-b74b-c6e9cc45e88f" type="0">
+      <message>├── colors@0.6.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.5912723Z" id="9a2f7b30-2426-4f42-91d3-01e95c4d8f17" type="0">
+      <message>├── async@0.1.22</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.6058383Z" id="3c729849-c080-48c7-96ff-b4070a31d1de" type="0">
+      <message>├── grunt-legacy-util@0.2.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.6270575Z" id="dbc7d6c3-491e-4ac2-8c5b-5f9e16e76f1a" type="0">
+      <message>├── rimraf@2.2.8</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.6583198Z" id="74ec4ad7-e554-424d-9205-f1b22ad04b45" type="0">
+      <message>├── nopt@1.0.10 (abbrev@1.0.5)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.6762899Z" id="8d1b9a0f-0699-49fe-b077-6d086a2eb844" type="0">
+      <message>├── exit@0.1.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.6919328Z" id="185eb7ea-fcff-44d2-9995-0fc899009d29" type="0">
+      <message>├── hooker@0.2.3</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.7098388Z" id="ca48666b-eb53-47d2-8e17-8ae6d9277824" type="0">
+      <message>├── minimatch@0.2.14 (sigmund@1.0.0, lru-cache@2.5.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.7412142Z" id="4d09ab67-b887-4ca6-a366-c34ddcef0fbf" type="0">
+      <message>├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.3)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.8582423Z" id="8e6e618a-35fd-4707-ad78-363e74c4c962" type="0">
+      <message>├── lodash@0.9.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.8738738Z" id="99ba1611-c2f7-4de2-89b0-4a2f3eb4c2c4" type="0">
+      <message>├── coffee-script@1.3.3</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.8894899Z" id="34cd048a-00e0-4660-a06b-ea4afaf1b2a4" type="0">
+      <message>├── underscore.string@2.2.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.9207426Z" id="55ccd073-8b09-4bca-8541-fe97aea391c2" type="0">
+      <message>├── iconv-lite@0.2.11</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.9363717Z" id="e1b7b07c-12d8-4a23-aa20-671b6d9c9dce" type="0">
+      <message>├── js-yaml@2.0.5 (argparse@0.1.16, esprima@1.0.4)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.951993Z" id="62556884-170f-4a31-84a3-870b4a1a20e2" type="0">
+      <message>├── findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.9832592Z" id="fcffd766-a172-42b2-9c74-f33f62471793" type="0">
+      <message>└── grunt-legacy-log@0.1.1 (underscore.string@2.3.3, lodash@2.4.1)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:40.9989098Z" id="7640db5d-55ca-48a3-b61a-d84c2822b50e" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.0200827Z" id="0672527b-b6a5-41b0-a643-fc9a6d2e33a0" type="0">
+      <message>forever@0.10.11 node_modules\forever</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.0544581Z" id="ee0dab4f-e818-4d17-b419-b89e0b8c2591" type="0">
+      <message>├── watch@0.8.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.0700958Z" id="ae3bd420-8352-4531-88af-8e277932041c" type="0">
+      <message>├── colors@0.6.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.0935383Z" id="31f4e2f8-af09-474c-a1c3-a98f2de1484d" type="0">
+      <message>├── pkginfo@0.3.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.1286202Z" id="b250ad3a-5295-417d-a9eb-a492ad48c69d" type="0">
+      <message>├── timespan@2.3.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.145598Z" id="9f917bd6-42d0-4420-a565-a55c2906d971" type="0">
+      <message>├── optimist@0.6.1 (wordwrap@0.0.2, minimist@0.0.10)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.1629307Z" id="09432367-c09b-4bf9-b45a-3979b96951ba" type="0">
+      <message>├── nssocket@0.5.3 (eventemitter2@0.4.14, lazy@1.0.11)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.1964837Z" id="3572333a-c190-4b80-b2dd-85fc67263bf2" type="0">
+      <message>├── utile@0.2.1 (deep-equal@0.2.1, rimraf@2.2.8, ncp@0.4.2, async@0.2.10, i@0.3.2, mkdirp@0.5.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.2176392Z" id="5bc8b10e-d185-46a3-90ff-c3002906e3cb" type="0">
+      <message>├── nconf@0.6.9 (ini@1.3.2, async@0.2.9, optimist@0.6.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.2346352Z" id="074bc5a3-f6d0-4466-bc00-251831d29178" type="0">
+      <message>├── cliff@0.1.8 (eyes@0.1.8, winston@0.6.2)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.2503013Z" id="ad3a24a2-1eb1-4cd0-acaa-af7e5f5aac3f" type="0">
+      <message>├── winston@0.7.3 (cycle@1.0.3, stack-trace@0.0.9, eyes@0.1.8, async@0.2.10, request@2.16.6)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.2815234Z" id="f1f2059f-2a21-401c-95cc-8057ee261106" type="0">
+      <message>├── forever-monitor@1.2.3 (watch@0.5.1, minimatch@0.2.14, utile@0.1.7, ps-tree@0.0.3, broadway@0.2.10)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.2971689Z" id="4ddddc61-1c88-4903-aaf2-1d08049733eb" type="0">
+      <message>└── flatiron@0.3.11 (optimist@0.6.0, director@1.1.10, prompt@0.2.11, broadway@0.2.9)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.3284021Z" id="c5d61a5b-c54a-463b-aa3a-de2a65c05c35" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.3440649Z" id="30c4490b-05c4-4a96-a94e-8791385d573f" type="0">
+      <message>knex@0.5.16 node_modules\knex</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.3596487Z" id="68d9cd03-47d7-4efd-9b38-fe1ac3e68d7d" type="0">
+      <message>├── colors@0.6.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.3909073Z" id="37c230c6-7b8f-4879-b245-b1a037907edc" type="0">
+      <message>├── generic-pool-redux@0.1.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.4065239Z" id="cbcc051e-b4c6-4d57-b43e-219f752c37ee" type="0">
+      <message>├── mkdirp@0.3.5</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.5002851Z" id="5d8d9619-046c-4b21-bdd0-2f974b9e45bb" type="0">
+      <message>├── optimist@0.6.1 (minimist@0.0.10, wordwrap@0.0.2)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.5171684Z" id="f24c07e5-31aa-4a7c-8931-a466b67ea731" type="0">
+      <message>├── bluebird@1.2.4</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.533336Z" id="6b6c8085-6b65-48c0-b19c-49bf9c4a7a5a" type="0">
+      <message>└── lodash@2.4.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.5640729Z" id="21aab5e6-b3f5-4c1f-9c82-f6f88fa49de5" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.5797043Z" id="442edd3a-17e9-4fb3-8892-48e834136f29" type="0">
+      <message>express@3.4.8 node_modules\express</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.6116417Z" id="ad4f7b48-cca9-42aa-9747-a21e6595e352" type="0">
+      <message>├── methods@0.1.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.6285706Z" id="3c61092c-9cc4-4fa8-ac2f-dbb067784923" type="0">
+      <message>├── merge-descriptors@0.0.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.6442183Z" id="5de322e7-5443-4034-838c-617773b2cf73" type="0">
+      <message>├── range-parser@0.0.4</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.6759366Z" id="cac626cb-a782-42f1-857d-c9b0bf1a7e0e" type="0">
+      <message>├── fresh@0.2.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.7092202Z" id="5c89d4c2-a39f-49a7-9381-0d8e606fb44e" type="0">
+      <message>├── debug@0.8.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.7248672Z" id="1f68cb57-9410-4c23-8757-befe364dd860" type="0">
+      <message>├── cookie-signature@1.0.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.7496036Z" id="37ef5f5a-21f3-40ec-b509-deddb54c6448" type="0">
+      <message>├── buffer-crc32@0.2.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.7965007Z" id="c3a5af5d-2cf0-4d47-a83b-8746487100c9" type="0">
+      <message>├── cookie@0.1.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.84338Z" id="f4d36f80-fd9a-48a9-953d-4c1ddc90c523" type="0">
+      <message>├── commander@1.3.2 (keypress@0.1.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.8746444Z" id="4b759c23-3773-46db-a0e3-592f4ffb9314" type="0">
+      <message>├── mkdirp@0.3.5</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.8941809Z" id="5cf20c88-eccb-4163-a35a-c8f4246b8d35" type="0">
+      <message>├── send@0.1.4 (mime@1.2.11)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.9254401Z" id="a0653a6f-f54b-4a19-90f4-d3559655274b" type="0">
+      <message>└── connect@2.12.0 (uid2@0.0.3, pause@0.0.1, qs@0.6.6, bytes@0.2.1, raw-body@1.1.2, batch@0.5.0, negotiator@0.3.0, multiparty@2.2.0)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.9411005Z" id="bdfdcd7c-a051-4c97-8b17-9f6f40a62adb" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.9624511Z" id="8eb08270-1852-4404-9718-76e4d8deab4d" type="0">
+      <message>mongoose@3.8.21 node_modules\mongoose</message>
+    </entry>
+    <entry time="2015-01-15T00:18:41.9989706Z" id="cfe1830a-712d-48ee-9e15-112a4a7ff515" type="0">
+      <message>├── regexp-clone@0.0.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.0190295Z" id="92e63387-d015-40a3-9062-3826d7399c51" type="0">
+      <message>├── muri@0.3.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.0659211Z" id="5a1b3331-be7e-4e55-8977-360219e842de" type="0">
+      <message>├── sliced@0.0.5</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.0971731Z" id="ab31880d-e7d0-4b54-8726-6b643c8f9bba" type="0">
+      <message>├── hooks@0.2.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.1440443Z" id="05915767-1fcd-4e1c-a10f-bca13c11c720" type="0">
+      <message>├── mpath@0.1.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.1753024Z" id="43d9aa5b-4c99-4655-af8a-55de1130891e" type="0">
+      <message>├── mpromise@0.4.3</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.2074811Z" id="c1ad0180-9cba-401f-b3d4-3eec9cd6ac67" type="0">
+      <message>├── ms@0.1.0</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.2388504Z" id="214b3808-3065-4b9a-b235-a281c8f97374" type="0">
+      <message>├── mquery@0.8.0 (debug@0.7.4)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.270108Z" id="ae90566f-a996-430b-9ed1-ff3f195ca3cb" type="0">
+      <message>└── mongodb@1.4.12 (readable-stream@1.0.33, kerberos@0.0.4, bson@0.2.17)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.3184085Z" id="af10b635-8314-48ba-9561-5e7fbe73aa69" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.3561564Z" id="5d9c6bea-c460-423a-a2b2-87de96c52d61" type="0">
+      <message>sqlite3@2.2.7 node_modules\sqlite3</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.3937468Z" id="49bb8d5a-84e2-4879-abaa-1885aa4557df" type="0">
+      <message>├── set-immediate@0.1.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:42.4236355Z" id="06c75771-b1af-404e-a17a-7e66c0f2468e" type="0">
+      <message>└── nan@1.1.2</message>
+    </entry>
+    <entry time="2015-01-15T00:18:46.3009199Z" id="682485c5-6793-44bd-a0c4-d8286a483436" type="1">
+      <message>npm WARN prefer global grunt-cli@0.1.13 should be installed with -g</message>
+    </entry>
+    <entry time="2015-01-15T00:18:58.7555623Z" id="c123bcbc-4768-47f0-88df-bba0259d000c" type="0">
+      <message>grunt-cli@0.1.13 node_modules\grunt-cli</message>
+    </entry>
+    <entry time="2015-01-15T00:18:58.8795198Z" id="9702b074-b5bc-4d5a-92b7-75c23b8899ec" type="0">
+      <message>├── nopt@1.0.10 (abbrev@1.0.5)</message>
+    </entry>
+    <entry time="2015-01-15T00:18:58.9732744Z" id="5d12f3ad-9ff6-41bf-a5a7-f5dc62a9658a" type="0">
+      <message>├── resolve@0.3.1</message>
+    </entry>
+    <entry time="2015-01-15T00:18:59.0514217Z" id="a2a5deef-1751-4fcd-8e3c-88c8dbaebbba" type="0">
+      <message>└── findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)</message>
+    </entry>
+    <entry time="2015-01-15T00:19:07.5677851Z" id="58c435bd-281c-44be-8e74-c77a7250fa42" type="0">
+      <message></message>
+    </entry>
+    <entry time="2015-01-15T00:19:07.6458962Z" id="d2eeef14-8cb8-4587-8764-c6e9857917eb" type="0">
+      <message>Done, without errors.</message>
+    </entry>
+    <entry time="2015-01-15T00:19:07.8958959Z" id="06c4a3b5-cc29-4138-b128-49704549b003" type="0">
+      <message>Finished successfully.</message>
+    </entry>
+  </entry>
+  <entry time="2015-01-15T00:19:08.0521622Z" id="9118fdba-2948-4393-8eae-9fde1f0baa4c" type="0">
+    <message>Deployment successful.</message>
+  </entry>
+</entries>

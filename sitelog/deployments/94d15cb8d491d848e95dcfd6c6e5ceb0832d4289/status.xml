@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>94d15cb8d491d848e95dcfd6c6e5ceb0832d4289</id>
+  <author>realmike33</author>
+  <deployer>realmike33</deployer>
+  <authorEmail>realmike33@gmail.com</authorEmail>
+  <message>Add readme explaining Hack Reactor projects.</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2015-01-15T00:19:08.0990327Z</lastSuccessEndTime>
+  <receivedTime>2015-01-15T00:15:32.5000101Z</receivedTime>
+  <startTime>2015-01-15T00:15:34.0102894Z</startTime>
+  <endTime>2015-01-15T00:19:08.0990327Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>
