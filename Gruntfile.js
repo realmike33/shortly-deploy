@@ -36,7 +36,6 @@ module.exports = function(grunt) {
         'public/client/*.js'
       ],
       options: {
-        force: 'true',
         jshintrc: '.jshintrc',
         ignores: [
           'public/lib/**/*.js',
@@ -70,7 +69,11 @@ module.exports = function(grunt) {
     },
 
     shell: {
-      prodServer: {
+      pushToProd: {
+        command: [
+          'git remote add azure https://realmike33@shortly001.scm.azurewebsites.net:443/shortly001.git',
+          'git push azure'
+        ].join(';')
       }
     },
   });
@@ -113,18 +116,15 @@ module.exports = function(grunt) {
     'mochaTest'
   ]);
 
-  grunt.registerTask('upload', function(n) {
+  grunt.registerTask('deploy', function(n) {
     if(grunt.option('prod')) {
       // add your production server task here
+      grunt.task.run(['build','shell:pushToAzure']);
     } else {
-      grunt.task.run([ 'server-dev' ]);
+      grunt.task.run([ 'build', 'server-dev' ]);
     }
   });
 
-  grunt.registerTask('deploy', [
-    'build',
-    'pushToAzure'
-  ]);
 
 
 };
