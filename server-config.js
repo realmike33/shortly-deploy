@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 
 var handler = require('./lib/request-handler');
 
-mongoose.connect('mongodb://localhost/shortly', function(err) {
+mongoose.connect('mongodb://root:root1@ds031611.mongolab.com:31611/heroku_app33270204', function(err) {
     if (err) {
       console.dir(err);
       throw err;
