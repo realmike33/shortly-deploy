@@ -2,15 +2,22 @@ var express = require('express');
 var partials = require('express-partials');
 var util = require('./lib/utility');
 var mongoose = require('mongoose');
+var fs = require('fs');
 
 var handler = require('./lib/request-handler');
 
-mongoose.connect('mongodb://root:root1@ds031611.mongolab.com:31611/heroku_app33270204', function(err) {
+if (process.env.NODE_ENV === 'production') {
+  var dbUri = fs.readFileSync('dbinfo', {encoding: 'utf8'});
+} else {
+  var dbUri = "mongodb://localhost/shortly";
+}
+
+mongoose.connect(dbUri, function(err) {
     if (err) {
       console.dir(err);
       throw err;
     }
-});
+  });
 
 var app = express();
 
