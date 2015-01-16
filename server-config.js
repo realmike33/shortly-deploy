@@ -21,7 +21,7 @@ app.configure(function() {
   app.use(express.session());
 });
 
-app.get('/', handler.renderIndex);
+app.get('/', util.checkUser, handler.renderIndex);
 app.get('/create', util.checkUser, handler.renderIndex);
 
 app.get('/links', util.checkUser, handler.fetchLinks);
