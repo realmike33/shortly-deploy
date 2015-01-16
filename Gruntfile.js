@@ -119,7 +119,7 @@ module.exports = function(grunt) {
   grunt.registerTask('deploy', function(n) {
     if(grunt.option('prod')) {
       // add your production server task here
-      grunt.task.run(['build','shell:pushToAzure']);
+      grunt.task.run(['build','shell:pushToProd']);
     } else {
       grunt.task.run([ 'build', 'server-dev' ]);
     }

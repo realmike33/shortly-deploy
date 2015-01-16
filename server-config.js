@@ -6,7 +6,10 @@ var mongoose = require('mongoose');
 var handler = require('./lib/request-handler');
 
 mongoose.connect('mongodb://localhost/shortly', function(err) {
-    if (err) throw err;
+    if (err) {
+      console.dir(err);
+      throw err;
+    }
 });
 
 var app = express();
